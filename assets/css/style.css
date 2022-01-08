@@ -13,6 +13,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'bpg-rioni-vera-light-webfont';
+  src: url('../fonts/bpg-rioni-vera-light-webfont.woff2') format('woff2'),
+  url('../fonts/bpg-rioni-vera-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0px;
@@ -32,10 +39,10 @@ body {
   letter-spacing: 2px;
 }
 .ka {
-  font-family: 'NotoSansGeorgianAG-Light';
+  font-family: 'bpg-rioni-vera-light-webfont';
   font-weight: normal;
-  letter-spacing: 0px;
-  font-size: 28px;
+  letter-spacing: 1px;
+  color: #aaa6a6;
 }
 h6 {
   margin: 0px 0 20px 0;
