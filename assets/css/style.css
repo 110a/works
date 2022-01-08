@@ -7,18 +7,13 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'HelveticaNeueLTStd45Light_22520';
-  /* src: url('../fonts/HelveticaNeueLTStd-ThCn.woff2') format('woff2'), */
-  /* url('../fonts/HelveticaNeueLTStd-ThCn.woff') format('woff'), */
-  src:  url('../fonts/HelveticaNeueLTStd45Light_22520.ttf') format('truetype');
+  font-family: 'NotoSansGeorgianAG-Light';
+  src: url('../fonts/NotoSansGeorgianAG-Light.woff2') format('woff2'),
+  url('../fonts/NotoSansGeorgianAG-Light.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100;200&family=PT+Sans&display=swap');
-.ka {
-  font-family: 'Noto Sans Georgian', sans-serif;
-  font-weight: 200;
-}
+
 body {
   margin: 0px;
   padding: 40px;
@@ -35,6 +30,12 @@ body {
   font-size: 30px;
   color: #999999;
   letter-spacing: 2px;
+}
+.ka {
+  font-family: 'NotoSansGeorgianAG-Light';
+  font-weight: normal;
+  letter-spacing: 0px;
+  font-size: 28px;
 }
 h6 {
   margin: 0px 0 20px 0;
