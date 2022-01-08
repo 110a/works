@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'HelveticaNeueLTStd25UltraLight_22508';
-  src: url('../fonts/HelveticaNeueLTStd25UltraLight22508.woff.woff2') format('woff2'),
+  src: url('../fonts/HelveticaNeueLTStd25UltraLight22508.woff2') format('woff2'),
   url('../fonts/HelveticaNeueLTStd25UltraLight22508.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -51,4 +51,9 @@ a {
 footer {
   font-size: 14px;
   letter-spacing: 1px;
+}
+@media only screen and (max-width: 640px) {
+  .works {
+    display: block;
+  }
 }
