@@ -1,15 +1,7 @@
 @font-face {
   font-family: 'HelveticaNeueLTStd25UltraLight_22508';
-  /* src: url('../fonts/HelveticaNeueLTStd-ThCn.woff2') format('woff2'), */
-  /* url('../fonts/HelveticaNeueLTStd-ThCn.woff') format('woff'), */
-  src:  url('../fonts/HelveticaNeueLTStd25UltraLight_22508.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'NotoSansGeorgianAG-Light';
-  src: url('../fonts/NotoSansGeorgianAG-Light.woff2') format('woff2'),
-  url('../fonts/NotoSansGeorgianAG-Light.woff') format('woff');
+  src: url('../fonts/HelveticaNeueLTStd25UltraLight22508.woff.woff2') format('woff2'),
+  url('../fonts/HelveticaNeueLTStd25UltraLight22508.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
