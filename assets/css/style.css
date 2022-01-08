@@ -1,53 +1,35 @@
 @font-face {
-    font-family: 'HelveticaNeueLTStd25UltraLight_22508';
-    /* src: url('../fonts/HelveticaNeueLTStd-ThCn.woff2') format('woff2'), */
-        /* url('../fonts/HelveticaNeueLTStd-ThCn.woff') format('woff'), */
-      src:  url('../fonts/HelveticaNeueLTStd25UltraLight_22508.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'HelveticaNeueLTStd25UltraLight_22508';
+  /* src: url('../fonts/HelveticaNeueLTStd-ThCn.woff2') format('woff2'), */
+  /* url('../fonts/HelveticaNeueLTStd-ThCn.woff') format('woff'), */
+  src:  url('../fonts/HelveticaNeueLTStd25UltraLight_22508.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'HelveticaNeueLTStd45Light_22520';
-    /* src: url('../fonts/HelveticaNeueLTStd-ThCn.woff2') format('woff2'), */
-        /* url('../fonts/HelveticaNeueLTStd-ThCn.woff') format('woff'), */
-      src:  url('../fonts/HelveticaNeueLTStd45Light_22520.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'HelveticaNeueLTStd45Light_22520';
+  /* src: url('../fonts/HelveticaNeueLTStd-ThCn.woff2') format('woff2'), */
+  /* url('../fonts/HelveticaNeueLTStd-ThCn.woff') format('woff'), */
+  src:  url('../fonts/HelveticaNeueLTStd45Light_22520.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100;200&family=PT+Sans&display=swap');
+.ka {
+  font-family: 'Noto Sans Georgian', sans-serif;
+  font-weight: 200;
+}
 body {
   margin: 0px;
   padding: 40px;
   font-family: 'HelveticaNeueLTStd25UltraLight_22508';
 }
-header {
-  display: flex;
-  justify-content: space-between;
-  height: 98px;
-}
 .logo {
   width: 100px;
-}
-.menu ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-  font-size: 24px;
-  margin-top: 20px;
-  display: flex;
-}
-.menu li {
-  margin: 0px 15px 10px 0;
-  color: #000000;
-  font-family: 'HelveticaNeueLTStd45Light_22520';
-}
-.menu li.active {
-  color: #999999;
-  font-family: 'HelveticaNeueLTStd25UltraLight_22508';
+  padding-right: 60px;
 }
 .works {
-  margin-top: -98px;
-  margin-left: 160px;
+  display: flex;
 }
 .url {
   font-size: 30px;
